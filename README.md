@@ -12,4 +12,7 @@ Dibs.py is a script to reserve study rooms on campus at Tennessee Tech.
 ```console
 foo@bar:~$ ./Dibs.py -f "John" -l "Smith" -e "johnsmith@email.com" -r "12" -p "(555) 555-5555"
 ```
-
+### Windows
+```console
+C:\Users\jsmith> python Dibs.py -f "John" -l "Smith" -e "johnsmith@email.com" -r "12" -p "(555) 555-5555"
+```
