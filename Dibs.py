@@ -50,13 +50,5 @@ def main():
     text = r.json()
     print("\n",text)
 
-    parser = argparse.ArgumentParser(description="Reserve study rooms on campus at Tennessee Tech.")
-    parser.add_argument("-f", "--first-name", help="First name", required=True)
-    parser.add_argument("-l", "--last-name", help="Last name", required=True)
-    parser.add_argument("-e", "--email", help="Email address", required=True)
-    parser.add_argument("-p", "--phone", help="Phone number", required=False)
-    parser.add_argument("-r", "--room", help="Room to reserve", required=True)
-    args = parser.parse_args();
-
 if __name__ == "__main__":
     main()
