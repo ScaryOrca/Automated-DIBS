@@ -1,8 +1,17 @@
 # Automated-DIBS
-Python script to automatically reserve a Volpe Library study room at 4:00 PM. Uses Tennessee Tech's DIBS API. This script can run daily with the use of crontab.
-There is no documentation for DIBS API, so packet analysis was done with Chrome's network inspect tool in order to determine the POST API URL, parameters, and headers required.
 
-Run requirements:
+## About
+Dibs.py is a script to reserve study rooms on campus at Tennessee Tech.
+
+## Requirements
+Python 3.6+
+Requests module
+
+## Usage
+## Linux/macOS
+```console
+foo@bar:~$ ./Dibs.py -f "John" -l "Smith" -e "johnsmith@email.com" -r "12" -p "(555) 555-5555"
+```
 
 1. Use python3 dibs.py (or just python Main.py, but make sure python version is 3.6+ and not 2.7)
 2. Needs requests package installed (use python3 -m pip install X)
